@@ -1,0 +1,26 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'ZOOOO'
+theme = "paper"
+
+[params]
+    color = 'gray'
+    github = 'zyunlongz'
+    avatar = 'https://i.ibb.co/B4m2J9Y/checked.png'
+    name = 'Yunlong Zuo'
+    bio = 'Discover fresh context'
+    monoDarkIcon = true
+    gravatarCdn = 'https://cdn.v2ex.com/gravatar/'
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 10
